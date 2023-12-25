@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>header}}
+</head>
+<body>
+    <div id="registration__page">
+        <h1>Sign Up Account here !!</h1>
+        <form class="registration__container" action="/register" method="POST">
+            <div class="name">
+                <input type="text" name="username" placeholder="Username" id="name" required>
+            </div>
+            <div class="email">
+                <input type="email" name="email" placeholder="E-Mail" id="email" required>
+            </div>
+            <div class="password">
+                <input type="password" name="password" placeholder="Password" id="password" required>
+            </div>
+            <div class="confirmPassword">
+                <input type="password" name="confirmPassword" placeholder="Confirm Password" id="confirmPassword" required>
+            </div>
+            <div class="age">
+                <input type="number" name="age" placeholder="Age" id="age" required>
+            </div>
+            <div class="state">
+                <input type="text" name="state" placeholder="State" id="state" required>
+            </div>
+            <div class="address">
+                <input type="text" name="address" placeholder="Address" id="address" required>
+            </div>
+            <button type="submit">Sign Up</button>
+
+            <div class="already">
+                <h4>already have an Account? </h4>
+                <a href="/login">Login</a>
+            </div>
+        </form>
+    </div>
+
+{{>script}}
+</body>
+</html>

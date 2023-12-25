@@ -1,0 +1,122 @@
+.paperlessDSC__page{
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+}
+.paperlessDSC__page .DSC__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #ffffff;
+    width: 35%;
+    height: 75%;
+    margin: 5.9rem auto;
+    border-radius: 4rem;
+    box-shadow: 0 1rem 1rem rgba(0,0,0,0.7);
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+
+}
+.paperlessDSC__page .DSC__heading{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    text-shadow: 0 1rem 1rem rgba(0,0,0,0.5);
+}
+.paperlessDSC__page .DSC__container .name input, .mobile input, .email input, .age input, input, .discussion input{
+    width: 17rem;
+    height: 2rem;
+    border-radius: 2rem;
+    padding: 0.2rem 0.4rem;
+    box-shadow: 0 1rem 1rem rgba(0,0,0,0.5);
+}
+.paperlessDSC__page .DSC__container .discussion{
+    margin-top:1.5rem
+
+}
+.paperlessDSC__page .DSC__container .discussion textarea{
+    border-radius: 2rem;
+    padding: 0.9rem 0.4rem;
+}
+.paperlessDSC__page .DSC__container>button{
+    padding: 0.3rem 0.6rem;
+    background-color: #0008ff;
+    color: #ffffff;
+    border-radius: 0.9rem;
+    transition: all 500ms ease-in-out;
+}
+.paperlessDSC__page .DSC__container>button:hover{
+    box-shadow: 0 1rem 1rem rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+
+@media screen and (max-width:680px) {
+    .paperlessDSC__page .DSC__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #000;
+        width: 92%;
+        height: 81%;
+        margin: 1.9rem auto;
+        border-radius: 4rem;
+        box-shadow: 0 1rem 1rem rgba(0,0,0,0.4);
+        padding: 0.5rem;
+    }
+    .paperlessDSC__page .DSC__heading {
+        text-align: center;
+        font-size: 1.4rem;
+        font-weight: 700;
+        text-shadow: 0 1rem 1rem rgba(0,0,0,0.5);
+    }
+    .paperlessDSC__page .DSC__container .discussion h3{
+        width: 17rem;
+        margin-left: 5.2rem;
+        margin-top: 0.4rem;
+    }
+    .paperlessDSC__page .DSC__container .name , .mobile, .email , .age, .discussion {
+        width: 90%;
+        margin-top: 0.4rem;
+    }    
+    .paperlessDSC__page .DSC__container .name input, .mobile input, .email input, .age input, .discussion input {
+        height: 2rem;
+        border-radius: 2rem;
+        padding: 0.2rem 0.4rem;
+        box-shadow: 0 1rem 1rem rgba(0,0,0,0.5);
+        margin: auto;
+        width: 95%;
+    }
+    .paperlessDSC__page .DSC__container .discussion h3 {
+        width: 17rem;
+        margin: auto;
+        font-size: 0.7rem;
+        padding-bottom: 0.9rem;
+    }
+    /* .paperlessDSC__page .DSC__container .discussion textarea {
+        border-radius: 2rem;
+        padding: 1.7rem 0.1rem;
+        width: 94%;
+        margin: auto;
+    } */
+    .paperlessDSC__page .DSC__container .discussion textarea {
+        border-radius: 1rem;
+        padding: 0.7rem 0.1rem;
+        width: 94%;
+        margin: auto;
+    }
+    .paperlessDSC__page .DSC__container>button {
+        padding: 0.5rem 0.9rem;
+        background-color: #0008ff;
+        border-radius: 0.9rem;
+        transition: all 500ms ease-in-out;
+        font-weight: 900;
+        margin-top: 0.4rem;
+        border: none;
+    }
+}

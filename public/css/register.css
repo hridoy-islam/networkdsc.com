@@ -1,0 +1,240 @@
+#registration__page{
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: #A9C9FF;
+    background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+}
+#registration__page h1{
+    column-rule: #170909;
+    text-shadow: 0 1rem 1rem rgba(0,0,0,0.5);
+    text-align: center;
+    margin-top: 0.5rem;
+}
+/* #registration__page .registration__container {
+    height: 80%;
+    width: 30%;
+    background-color: #ffffff;
+    border: 4px solid #000;
+    margin: 4rem auto;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
+#registration__page .registration__container {
+    height: 80%;
+    width: 70%;
+    /* background-color: #8BC6EC; */
+    background-color: #A9C9FF;
+    background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+
+    box-shadow: 0 1rem 1rem rgba(0,0,0,0.5);
+    border: 2px solid #ffffff;
+    margin: 4rem auto;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* #registration__page .registration__container .name input,.email input,.password input,.confirmPassword input,.age input,.state input,.address input{
+    width: 17rem;
+    height: 2rem;
+    border-radius: 2rem;
+    padding: 0.2rem 0.4rem;
+} */
+#registration__page .registration__container .name input{
+    width: 17rem;
+    height: 2rem;
+    border-radius: 2rem;
+    padding: 0.2rem 0.4rem;
+}
+#registration__page .registration__container .email input{
+    width: 17rem;
+    height: 2rem;
+    border-radius: 2rem;
+    padding: 0.2rem 0.4rem;
+}
+#registration__page .registration__container .password input{
+    width: 17rem;
+    height: 2rem;
+    border-radius: 2rem;
+    padding: 0.2rem 0.4rem;
+    margin-top: 0.6rem;
+}
+#registration__page .registration__container .confirmPassword input{
+    width: 17rem;
+    height: 2rem;
+    border-radius: 2rem;
+    padding: 0.2rem 0.4rem;
+}
+#registration__page .registration__container .age input{
+    width: 17rem;
+    height: 2rem;
+    border-radius: 2rem;
+    padding: 0.2rem 0.4rem;
+}
+#registration__page .registration__container .state input{
+    width: 17rem;
+    height: 2rem;
+    border-radius: 2rem;
+    padding: 0.2rem 0.4rem;
+}
+#registration__page .registration__container .address input{
+    width: 17rem;
+    height: 2rem;
+    border-radius: 2rem;
+    padding: 0.2rem 0.4rem;
+    margin-top: 0.6rem;
+}
+#registration__page .registration__container button {
+    color: rgb(255, 255, 255);
+    border-radius: 1.2rem;
+    padding: 0.5rem 0.9rem;
+    margin-top: 1.2rem;
+    font-weight: 900;
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    cursor: pointer;
+    transition: all 500ms ease-in-out;
+}
+#registration__page .registration__container button:hover{
+    background-color: #08AEEA;
+    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+}
+#registration__page .registration__container .already{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1.1rem;
+}
+#registration__page .registration__container .already a{
+    text-decoration: none;
+    color: #21348b;
+    transition: all 500ms ease-in-out;
+}
+#registration__page .registration__container .already a:hover{
+    text-shadow: 0 1rem 1rem rgba(0,0,0,0.5);
+}
+
+
+@media screen and (max-width:680px){
+    #registration__page {
+        position: fixed;
+        top: 0;
+        min-height: 100vh;
+        width: 100vw;
+        /* background-color: #8BC6EC;
+        background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%); */
+
+        background-color: #A9C9FF;
+        background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+    }
+    #registration__page h1 {
+        column-rule: #170909;
+        text-shadow: 0 1rem 1rem rgba(0,0,0,0.5);
+        text-align: center;
+        margin-top: 0.5rem;
+        font-size: 1.2rem;
+    }
+    #registration__page .registration__container {
+        width: 90%;
+        margin-top: 0.8rem;
+        padding-top: 0.9rem;
+        position: static;
+        padding-bottom: 0.8rem;
+        border: 2px solid #ffffff;
+        /* background-color: #56B5E5; */
+        background-color: #A9C9FF;
+        background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+    }
+    #registration__page .registration__container .name #name {
+        width: 15rem;
+        height: 2rem;
+        border-radius: 2rem;
+        padding: 0.1rem 0.3rem;
+    }
+    #registration__page .registration__container .email #email {
+        width: 15rem;
+        height: 2rem;
+        border-radius: 2rem;
+        padding: 0.1rem 0.3rem;
+    }
+    #registration__page .registration__container .password #password {
+        width: 15rem;
+        height: 2rem;
+        border-radius: 2rem;
+        padding: 0.1rem 0.3rem;
+    }
+    #registration__page .registration__container .confirmPassword #confirmPassword {
+        width: 15rem;
+        height: 2rem;
+        border-radius: 2rem;
+        padding: 0.1rem 0.3rem;
+    }
+    #registration__page .registration__container .age #age {
+        width: 15rem;
+        height: 2rem;
+        border-radius: 2rem;
+        padding: 0.1rem 0.3rem;
+    }
+    #registration__page .registration__container .state #state {
+        width: 15rem;
+        height: 2rem;
+        border-radius: 2rem;
+        padding: 0.1rem 0.3rem;
+    }
+    #registration__page .registration__container .address #address {
+        width: 15rem;
+        height: 2rem;
+        border-radius: 2rem;
+        padding: 0.1rem 0.3rem;
+    }
+    #registration__page .registration__container .already h4{
+        font-size: 0.9rem;
+    }
+    /* #registration__page .registration__container {
+        height: 80%;
+        width: 70%;
+        background-color: #ffffff;
+        border: 4px solid #000;
+        margin: 4rem auto;
+        border-radius: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    } */
+    #registration__page .registration__container{
+        width: 90%;
+    }
+    #registration__page .registration__container .name #name{
+        padding:0.2rem 0.2rem;
+    }
+    #registration__page .registration__container .email #email{
+        padding:0.2rem 0.2rem;
+        margin-left: 1.2rem;
+    }
+    #registration__page .registration__container .password #password{
+        padding:0.2rem 0.2rem;
+    }
+    #registration__page .registration__container .confirmPassword #confirmPassword{
+        padding:0.2rem 0.2rem;
+    }
+    #registration__page .registration__container .age #age{
+        padding:0.2rem 0.2rem;
+        margin-left: 1.2rem;
+    }
+    #registration__page .registration__container .state #state{
+        padding:0.2rem 0.2rem;
+    }
+    #registration__page .registration__container .address #address{
+        padding:0.2rem 0.2rem;
+    }
+}

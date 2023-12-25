@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>header}}
+</head>
+<body>
+    <div id="login__page">
+        <h3>Login-Here</h3>
+        <form class="login__container" action="/login" method="POST">
+            <div class="login_email">
+                <input type="email" name="email" placeholder="E-mail" id="login_email" required>
+            </div>
+            <div class="login-password">
+                <input type="password" name="password" placeholder="Password" id="login-password" required>
+            </div>
+            <a href="/forgotPassword">Forgot Password?</a>
+            <button type="submit">Login</button>
+            <div class="registrationPage">
+                <h4 class="check">Not a member?</h4>
+                <a href="/register">SignUp</a>
+            </div>
+        </form>
+    </div>
+
+{{>script}}
+</body>
+</html>

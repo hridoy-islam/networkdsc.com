@@ -1,0 +1,110 @@
+#enotary{
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+
+}
+
+#enotary .enotary__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#enotary .enotary__container .enotary__heading{
+    font-size: 3.2rem;
+    text-shadow: 0 1rem 1rem rgba(0,0,0,0.6);
+    font-weight: 700;
+    text-align: center;
+}
+#enotary .enotary__container .enotary__para{
+    margin-top: 1.3rem;
+    text-align: center;
+}
+#enotary .enotary__container .enotary__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin: 1.2rem auto;
+}
+#enotary .enotary__container .enotary__para span{
+    opacity: 0.6;
+}
+#enotary .enotary__container .enotary__info .enotary__title{
+    margin-top: 1.5rem;
+    opacity: 0.8;
+}
+#enotary .enotary__container .enotary__info h3{
+    margin-top: 1.6rem;
+    text-align: center;
+    text-shadow: 0 1rem 1rem rgba(0,0,0,0.6);
+}
+#enotary .enotary__container .enotary__info .useCases{
+    margin: 1.5rem auto;
+    list-style: noen;
+    opacity: 0.7;
+    line-height: 1.2;
+}
+#enotary .enotary__container .enotary__ending__line {
+    position: fixed;
+    bottom: 1.6rem;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
+    margin-left: 14rem;
+} 
+
+@media screen and (max-width:680px) {
+    /* #enotary {
+        width: 100vw;
+        background-color: #ecc1c1;
+        position: relative;
+        height: auto;
+    } */
+    #enotary {
+        width: 100vw;
+        background-color: #D9AFD9;
+        background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+        position: relative;
+        min-height: 150vh;
+    }
+    #enotary .enotary__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #enotary .enotary__container .enotary__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 85%;
+        margin: 1.2rem auto;
+    }
+    #enotary .enotary__container .enotary__info .enotary__title {
+        margin-top: 1.5rem;
+        opacity: 0.8;
+        width: 100%;
+    }
+    #enotary .enotary__container .enotary__info .useCases {
+        margin: 1.5rem auto;
+        list-style: noen;
+        opacity: 0.7;
+        line-height: 3.2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.7rem;
+    }
+    #enotary .enotary__container .enotary__ending__line {
+        font-size: 1rem;
+        margin-left: 1rem;
+        width: 85%;
+        text-align: center;
+        font-weight: 900;
+        position: static;
+    }    
+}

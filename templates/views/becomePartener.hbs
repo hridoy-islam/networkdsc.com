@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>header}}
+</head>
+<body>
+    <div id="become_a_partener">
+        <h1 class="become__partener__heading">Become Our Partener <br>and Join Today</h1>
+        <form action="/partener" method="POST" class="become__partener">
+            <div class="name">
+                <input type="text" placeholder="Enter your Name..." name="name" required>
+            </div>
+            <div class="age">
+                <input type="number" placeholder="Your Age..." name="age" required>
+            </div>
+            <div class="email">
+                <input type="email" placeholder="E-Mail" name="email" required>
+            </div>
+            <div class="mobile">
+                <input type="number" placeholder="Mobile Number" name="mobile" required>
+            </div>
+            <div class="city">
+                <input type="text" placeholder="City" name="city" required>
+            </div>
+            <div class="state">
+                <input type="text" placeholder="State" name="state" required>
+            </div>
+            <button type="submit" target="_blank">Join Now</button>
+        </form>
+    </div>
+{{>script}}
+</body>
+</html>

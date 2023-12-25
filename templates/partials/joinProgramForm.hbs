@@ -1,0 +1,60 @@
+{{#if message}}
+<div class="alert alert-danger">{{message}}</div>
+{{/if}}
+
+
+
+
+
+<form action="/" method="post" class="joiningForm">
+    <div class="name">
+        <input type="name" name="username" placeholder=" Name" class="join_program__name" required>
+    </div>
+    <div class="mobile">
+        <input type="number" name="mobile" placeholder=" Mobile-Number" class="join_programm_mobile" required>
+    </div>
+    <div class="email">
+        <input type="email" name="email" placeholder=" E-Mail" class="join_program_email" required>
+    </div>
+    {{!-- <div class="state">
+        <input type="text" name="state" placeholder="state" required>
+    </div> --}}
+    <select name="state1" id="home__page__state" value="State" class="state">
+        {{!-- <option value="State">State</option> --}}
+        <option value="selected" selected>State</option>
+        <option value="Andhra Pradesh" name="state">Andhra Pradesh</option>
+        <option value="Arunachal Pradesh" name="state">Arunachal Pradesh</option>
+        <option value="Assam" name="state">Assam</option>
+        <option value="Bihar" name="state">Bihar</option>
+        <option value="Chhattisgarh" name="state">Chhattisgarh</option>
+        <option value="Goa" name="state">Goa</option>
+        <option value="Gujarat" name="state">Gujarat</option>
+        <option value="Haryana" name="state">Haryana</option>
+        <option value="Himachal Pradesh" name="state">Himachal Pradesh</option>
+        <option value="Jharkhand" name="state">Jharkhand</option>
+        <option value="Karnataka" name="state">Karnataka</option>
+        <option value="Kerala" name="state">Kerala</option>
+        <option value="Madhya Pradesh" name="state">Madhya Pradesh</option>
+        <option value="Maharashtra" name="state">Maharashtra</option>
+        <option value="Manipur" name="state">Manipur</option>
+        <option value="Meghalaya" name="state">Meghalaya</option>
+        <option value="Mizoram" name="state">Mizoram</option>
+        <option value="Nagaland" name="state">Nagaland</option>
+        <option value="Odisha" name="state">Odisha</option>
+        <option value="Punjab" name="state">Punjab</option>
+        <option value="Rajasthan" name="state">Rajasthan</option>
+        <option value="Sikkim" name="state">Sikkim</option>
+        <option value="Tamil Nadu" name="state">Tamil Nadu</option>
+        <option value="Telangana" name="state">Telangana</option>
+        <option value="Tripura" name="state">Tripura</option>
+        <option value="Uttar Pradesh" name="state">Uttar Pradesh</option>
+        <option value="Uttarakhand" name="state">Uttarakhand</option>
+        <option value="West Bengal" name="state">West Bengal</option>
+    </select>
+    <div class="city">
+        <input type="text" name="city" placeholder="City" class="join_program_city" required>
+    </div>    
+    <div class="btn">
+        <button type="submit">Join Now!</button>
+    </div>
+</form>

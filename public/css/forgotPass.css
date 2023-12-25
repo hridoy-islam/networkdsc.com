@@ -1,0 +1,120 @@
+#forgot__password__page {
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    /* background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%); */
+    background-color: #A9C9FF;
+    background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+
+}
+#forgot__password__page>h3{
+    font-size: 1.9rem;
+    text-align: center;
+    margin-top: 0.9rem;
+    text-shadow: 0 1rem 1rem rgba(0,0,0,0.5);
+}
+
+#forgot__password__page .forgot__pass__container {
+    height: 55%;
+    width: 25%;
+    border: 2px solid #ffffff;
+    border-radius: 1.3rem;
+    margin: 8.3rem auto;
+    /* background-color: #FFFFFF;
+    background-image: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%); */
+    background-color: #A9C9FF;
+    background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+    box-shadow: 0 1rem 1rem rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#forgot__password__page .forgot__pass__container .email input,.password input,.confirmPassword input{
+    padding: 1rem 2.4rem;
+    border-radius: 2rem;
+    margin-bottom: 1.2rem;
+    transition: all 300ms ease-in-out;
+}
+#forgot__password__page .forgot__pass__container .email input:focus,.password input:focus,.confirmPassword input:focus{
+    background-color: #16f202;
+    /* font-size: 0.8rem; */
+    font-weight: 700;
+    border-radius: 1.3rem;
+}
+#forgot__password__page .forgot__pass__container>button{
+    padding: 0.4rem 0.8rem;
+    border-radius: 2rem;
+    font-weight: 600;
+    color: #3cff00;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+#forgot__password__page .forgot__pass__container>button:hover{
+    background: #3cff00;
+    color: #000;
+    cursor: pointer;
+}
+#forgot__password__page .forgot__pass__container h4{
+    width: 77%;
+    margin-top: 1rem;
+} 
+
+@media screen and (max-width:680px) {
+    #forgot__password__page>h3 {
+        font-size: 1.2rem;
+        text-align: center;
+        margin-top: 0.9rem;
+        text-shadow: 0 1rem 1rem rgba(0,0,0,0.5);
+    }
+    #forgot__password__page .forgot__pass__container {
+        height: 65%;
+        width: 90%;
+        border: 4px solid #000;
+        border-radius: 1.3rem;
+        margin: 3.3rem auto;
+        /* background-color: #ffffff; */
+        background-color: #A9C9FF;
+        background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+        box-shadow: 0 1rem 1rem rgba(0,0,0,0.5);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #forgot__password__page .forgot__pass__container .email input, .password input, .confirmPassword input {
+        padding: 0.2rem 2rem;
+        border-radius: 2rem;
+        margin-bottom: 0.9rem;
+        transition: all 300ms ease-in-out;
+        width: 79%;
+        border: 2px solid green;
+    }
+    #forgot__password__page .forgot__pass__container .email input:focus,.password input:focus,.confirmPassword input:focus{
+        background-color: #16f202;
+        /* font-size: 0.8rem; */
+        font-weight: 700;
+        border-radius: 1.3rem;
+    }
+    #forgot__password__page .forgot__pass__container>button {
+        padding: 0.4rem 0.8rem;
+        border-radius: 2rem;
+        font-weight: 600;
+        color: #ff0000;
+        cursor: pointer;
+        transition: all 300ms ease-in-out;
+        background: black;
+    }
+    #forgot__password__page .forgot__pass__container h4 {
+        margin-top: 3rem;
+        text-align: center;
+        font-weight: 600;
+        opacity: 0.8;
+        filter: brightness(0);
+        font-size: 0.6rem;
+    }
+}
+
+

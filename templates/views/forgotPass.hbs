@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>header}}
+</head>
+<body>
+    <div id="forgot__password__page">
+        <h3>Forgot Password</h3>
+        <form class="forgot__pass__container" action="/forgotPassword" method="POST">
+            <div class="email">
+                <input type="email" name="email" placeholder="Email" required>
+            </div>
+            <div class="password">
+                <input type="password" name="password" placeholder="New Password" required>
+            </div>
+            <div class="confirmPassword">
+                <input type="password" name="confirmPassword" placeholder="Confirm Password" required>
+            </div>
+            <button type="submit">Submit</button>
+            <h4>After Filling The form Check your <br> E-Mail for Further Process......</h4>
+        </form>
+    </div>
+{{>script}}
+</body>
+</html>

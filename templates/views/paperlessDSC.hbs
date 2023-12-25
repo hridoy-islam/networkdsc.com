@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>header}}
+</head>
+<body>
+    <div class="paperlessDSC__page">
+        <h1 class="DSC__heading">Apply for PaperLessDSC</h1>
+        <form class="DSC__container" method="post" action="/apply-PaperLessDSC">
+            <div class="name">
+                <input type="text" name="name" placeholder="Name">
+            </div>
+            <div class="mobile">
+                <input type="text" name="mobile" placeholder="Mobile Number">
+            </div>
+            <div class="email">
+                <input type="email" name="email" placeholder="Working Mail">
+            </div>
+            <div class="age">
+                <input type="number" name="age" placeholder="Age">
+            </div>
+            <div class="discussion">
+                <h3>What would you like to cover in our meeting?</h3>
+                <textarea name="takingInfo" cols="60" rows="10" placeholder="Your answer"></textarea>
+            </div>
+            <button type="submit">Apply</button>
+        </form>
+    </div>
+
+{{>script}}
+</body>
+</html>

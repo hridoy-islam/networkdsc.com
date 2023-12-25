@@ -1,0 +1,167 @@
+.payments__page{
+    position: static;
+    top: 0;
+    min-height: 100vh;
+    width: 100vw;
+    /* background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%); */
+
+    /* background-color: #FEE140;
+    background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%); */
+
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+
+
+}
+.payments__page .backToHomeBtn a{
+    text-decoration: none;
+}
+
+.payments__page .backToHomeBtn{
+    display: inline-block;
+    margin-top: 0.5rem;
+    margin-left: 0.3rem;
+    cursor: pointer;
+}
+
+.payments__page .backToHomeBtn i {
+    color: rgb(255, 255, 255);
+    background: #04e413;
+    border-radius: 1.2rem;
+    padding: 0.4rem 0.5rem;
+    margin-left: 0.4rem;
+    margin-top: 0.3rem;
+    transition: all 500ms ease-in-out;
+}
+.payments__page .backToHomeBtn i {
+    box-shadow: 0 0.4rem 1rem rgb(87 244 9 / 50%);
+}
+
+.payments__page #payments__container .contacts h3 a{
+    margin-top: 0.3rem;
+    text-decoration: none;
+    color: #000;
+}
+
+
+.payments__page #payments__container h1 {
+    text-align: center;
+    font-size: 3.4rem;
+    font-weight: 700;
+    /* color: #5eb4ff; */
+    /* color: #000; */
+    /* color: #c85523; background-image: -webkit-radial-gradient(circle, #c85523 37%, #f534ff 45%, #578a8b 82%, #7e66a5 85%); background-clip: text; -webkit-background-clip: text; text-fill-color: transparent; -webkit-text-fill-color: transparent; */
+    
+    /* color: #4fc9d6; background-image: -webkit-linear-gradient(0deg, #4fc9d6 0%, #54f2f7 16%, #3db2e0 33%, #585aad 50%, #b980ff 66.66666666666667%, #3d40eb 77%, #009dff 100%); background-clip: text; -webkit-background-clip: text; text-fill-color: transparent; -webkit-text-fill-color: transparent; */
+    color: #1100ff;       
+          
+        
+
+}
+.payments__page #payments__container .contacts {
+    margin: 0.3rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 1.2rem;
+    gap: 1.2rem;
+}
+.payments__page #payments__container .typesOfPayments{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1.2rem;
+}
+.payments__page #payments__container .typesOfPayments .subscription {
+    /* border: 2px solid #000; */
+    border-radius: 2rem;
+    padding: 0.9rem;
+    height: 9.3rem;
+    width: 20rem;
+    box-shadow: 0 1rem 1rem rgba(0,0,0,0.5);
+    transition: all 500ms ease-in-out;
+}
+.payments__page #payments__container .typesOfPayments .subscription:hover{
+    box-shadow: none;
+    background-color: rgb(0, 255, 255);
+}
+.payments__page #payments__container .typesOfPayments .subscription .classType{
+    font-size: 1rem;
+    text-align: center;
+}
+
+.payments__page #payments__container .typesOfPayments .subscription .time{
+    font-size: 0.7rem;
+    text-align: center;
+    margin-top: 0.5rem;
+    font-weight: 500;
+    opacity: 0.8;
+}
+.payments__page #payments__container .typesOfPayments .subscription .category{
+    text-align: center;
+    font-size: 0.8rem;
+    opacity: 0.9;
+}
+
+.payments__page #payments__container .typesOfPayments .subscription .subscription__price{
+    text-align: center;
+    font-weight: 900;
+    color: #00bfff;
+}
+
+.payments__page #payments__container .typesOfPayments .subscription a input{
+    width: 6rem;
+    margin-left: 7rem;
+    margin-top: 0.4rem;
+    /* background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%); */
+    background-color: #0008ff;
+    transition: all 500ms ease-in-out;
+    border: none;
+    color: #ffffff;
+}
+.payments__page #payments__container .typesOfPayments .subscription a input:hover{
+    /* background-color: #00ff4c; */
+    cursor: pointer;
+    background-color: #08AEEA;
+    background-image: linear-gradient(180deg, #08AEEA 0%, #2AF598 100%);
+}
+
+@media screen and (max-width:1024px) {
+    .payments__page{
+        position: static;
+        min-height: 100vh;
+        width: 100vw;
+    }
+    .payments__page #payments__container .typesOfPayments {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 3.2rem;
+    }        
+}
+@media screen and (max-width:680px) {
+
+    .payments__page #payments__container h1 {
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: #00bfff;
+        margin-top: 1.2rem;
+    }
+    .payments__page #payments__container .contacts {
+        margin: 2.3rem auto;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 0.2rem;
+        flex-direction: column;
+        font-size: 0.8rem;
+    }
+    .payments__page #payments__container .typesOfPayments {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 7.9rem;
+    }
+}   
